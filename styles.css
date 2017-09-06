@@ -5,7 +5,7 @@ body{
 
 h1 {
     font-size: 5em;
-    margin: 0;
+    margin: 2%;
     color: #FFFFFF;
 }
 
@@ -19,7 +19,7 @@ h3{
 
 p {
 	font-size: 1em;
-	margin:0;
+	margin:2%;
 }
 
 button{
