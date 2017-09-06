@@ -12,7 +12,7 @@ h1 {
 h3{
 	color: #FFFFFF;
 	font-weight: lighter;
-	font-family: 'Open sans', sans serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 1em;
 	margin: 7px;
 }
@@ -31,6 +31,7 @@ button{
     margin: 2%;
     color: #FFFFFF;
     font-size: 1em;
+    box-sizing: border-box;
 }
 
 span {
