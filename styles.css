@@ -1,0 +1,130 @@
+body{
+	display: flex;
+	height: 100vh;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+h3{
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-family: 'Open sans', sans serif;
+	font-size: 1em;
+	margin: 7px;
+}
+
+p {
+	font-size: 1em;
+	margin:0;
+}
+
+button{
+	border: 1px solid;
+	border-color: #FFFFFF;
+	background: none;
+    width: 31%;
+    height: 20%;
+    margin: 2%;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+span {
+	align-self: center;
+}
+
+.flex-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: grey;
+}
+
+.left-side {
+  flex: 3;
+  display: flex;
+ /* height: 100vh;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  background-color: red;
+
+}
+
+.box { 
+ flex-direction:column-reverse;
+ display: flex;
+ width: 33.3333%;
+ height: 33.3333%;
+ justify-content: center;
+ align-items: center;
+}
+
+.right-side {
+	flex: 2;
+	display: flex;
+	background-image: url("http://worldnewsinn.com/wp-content/uploads/2017/02/pregnant-beyonce-performs-at-2017-grammy-awards-in-los-angeles-02-12-2017_4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	justify-content: flex-end;
+}
+
+
+.box1{
+	background-color: #BD6E45;
+	/*flex:2;*/
+	width: 66.6666%;
+	height: 33.3333%;
+}
+
+.box2{
+	background-color: #57332A;
+	
+}
+
+.box3{
+	background-color: #10323C;
+	
+}
+
+.box4{
+	background-color: #E77A36;
+	
+}
+
+.box5{
+	background-color: #ED8171;
+	
+}
+
+.box6{
+	background-color: #E77A36;
+
+}
+
+.box7{
+	background-color: #ED8171;
+	
+}
+
+.box8{
+	background-color: #57332A;
+	
+}
+
+@mediascreenand (max-width: 830px) {
+	.flex-container {
+		width:100%;
+	}
+
+	.right-side {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
